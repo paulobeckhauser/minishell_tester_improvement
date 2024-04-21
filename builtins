@@ -49,4 +49,10 @@ exit "-100"
 exit -"100"
 exit hello
 exit 42 world
+echo $USER\
+echo $USER|
+echo $USER,
+echo $USER.
+echo $USER#$USER#$USER
+echo $USERasfasfasf
 

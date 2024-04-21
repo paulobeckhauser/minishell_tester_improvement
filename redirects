@@ -73,3 +73,6 @@ echo hi | echo bye >>./test_files/invalid_permission
 echo hi | echo >>./outfiles/outfile01 bye >./test_files/invalid_permission
 cat <minishell.h>./outfiles/outfile
 cat <minishell.h|ls
+cat <./test_files/infile >./outfiles/outfile01 >./outfiles/outfile02 >./outfiles/outfile03 ./test_files/infile2
+cat <./test_files/infile_big >./outfiles/outfile02 >./outfiles/outfile03 >./outfiles/outfile04 ./test_files/infile2 | ls | cat <infile >./outfiles/outfile5
+<file1 <file2 <file3 <file4 cat >file5 >file6 >file7 >file9 | cat <fileprint | cat >file10

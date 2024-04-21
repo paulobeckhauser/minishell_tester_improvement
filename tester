@@ -13,7 +13,6 @@ else
 		"pipes"
 		"redirects"
 		"extras"
-		"additional_sheet"
 	)
 fi
 
