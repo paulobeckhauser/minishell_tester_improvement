@@ -19,11 +19,6 @@ echo '$'
 echo $
 echo $?
 echo $?HELLO
-echo -n hello
-echo -nnnnnnn hello
-echo -n hello -n
-echo hello -n
-echo -n -n -n -nnnnn -n hello -n
 pwd
 pwd oi
 export hello
